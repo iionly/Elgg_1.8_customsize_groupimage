@@ -4,7 +4,7 @@
 	<author>iionly</author>
 	<version>1.8.0</version>
 	<category>misc</category>
-	<description>Overrides group image size if required size is unavailable.</description>
+	<description>Displays the group profile image in the size of the original uploaded image in place of the large or master resized images (e.g. on group profile pages).</description>
 	<website>https://github.com/iionly</website>
 	<copyright>(C) iionly 2014</copyright>
 	<license>GNU Public License version 2</license>

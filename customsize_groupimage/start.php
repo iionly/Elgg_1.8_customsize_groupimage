@@ -13,7 +13,7 @@ function customsize_groupimage_init() {
 
 function customsize_groupimage_hook($hook, $entity_type, $returnvalue, $params) {
 
-	if (($hook != 'entity:icon:url') || ($hook == 'entity:icon:url') && ($params['size'] != 'large')) {
+	if (($hook != 'entity:icon:url') || (($hook == 'entity:icon:url') && ($params['size'] != 'large'))) {
 		return;
 	}
 
